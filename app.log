@@ -1,0 +1,250 @@
+2025-04-06 23:48:59,392 - NeuralAnalysis - INFO - Using device: cpu
+2025-04-06 23:49:00,938 - NeuralAnalysis - INFO - Neural models initialized successfully
+2025-04-06 23:51:18,159 - Preprocessing - INFO - Starting audio preprocessing...
+2025-04-06 23:51:18,160 - Preprocessing - INFO - Loading audio file...
+2025-04-06 23:51:18,671 - Preprocessing - INFO - Loaded C:\Users\prajy\AppData\Local\Temp\gradio\1a395b0d09671fbe3a7fc414c4636175e07655445d65d4d2ac09743eb642812b\classical_music.wav, Duration: 196.34s, Sample rate: 48000Hz
+2025-04-06 23:51:18,671 - Preprocessing - INFO - Removing silence...
+2025-04-06 23:51:18,861 - Preprocessing - INFO - Audio trimmed from 9424512 to 9201664 samples
+2025-04-06 23:51:18,964 - Preprocessing - INFO - Audio normalized
+2025-04-06 23:51:18,981 - Preprocessing - INFO - Extracting pitch and tempo...
+2025-04-06 23:51:20,510 - Preprocessing - INFO - Pitch detection complete. Shape: (1025, 17973)
+2025-04-06 23:51:26,752 - Preprocessing - INFO - Beat tracking complete. Found 277 beats
+2025-04-06 23:51:26,752 - Preprocessing - INFO - Processing pitch data...
+2025-04-06 23:51:26,813 - Preprocessing - INFO - Processed 17973 pitch frames
+2025-04-06 23:51:26,814 - Preprocessing - INFO - Detecting stable segments...
+2025-04-06 23:51:28,481 - Preprocessing - INFO - Found 25 stable segments
+2025-04-06 23:51:28,481 - Preprocessing - INFO - Extracting tonal features...
+2025-04-06 23:51:52,180 - Preprocessing - INFO - Tonal feature extraction complete
+2025-04-06 23:51:52,181 - Preprocessing - INFO - Estimated Tempo: 102.27 BPM
+2025-04-06 23:51:52,181 - Preprocessing - INFO - Generating visualizations...
+2025-04-06 23:52:19,659 - Preprocessing - INFO - Analysis plots saved at: outputs\waveform.png
+2025-04-06 23:52:19,661 - Preprocessing - INFO - Preparing final analysis results...
+2025-04-06 23:52:20,083 - NeuralAnalysis - ERROR - Error extracting audio features: Argument #4: Padding size should be less than the corresponding input dimension, but got: padding (1024, 1024) at dimension 2 of input [1, 1, 63]
+2025-04-06 23:52:21,707 - NeuralAnalysis - WARNING - Failed to extract one or both embeddings
+2025-04-06 23:52:21,709 - RagaRecognition - INFO - Raga Recognition Results:
+2025-04-06 23:52:21,709 - RagaRecognition - INFO - Kalyani: 0.108
+2025-04-06 23:52:21,709 - RagaRecognition - INFO - Shankarabharanam: 0.113
+2025-04-06 23:52:21,709 - RagaRecognition - INFO - Thodi: 0.118
+2025-04-06 23:52:22,100 - NeuralAnalysis - ERROR - Error extracting audio features: Argument #4: Padding size should be less than the corresponding input dimension, but got: padding (1024, 1024) at dimension 2 of input [1, 1, 68]
+2025-04-06 23:52:22,350 - NeuralAnalysis - WARNING - Failed to extract one or both embeddings
+2025-04-06 23:52:22,352 - RagaRecognition - INFO - Raga Recognition Results:
+2025-04-06 23:52:22,352 - RagaRecognition - INFO - Mayamalavagowla: 0.670
+2025-04-06 23:52:22,354 - RagaRecognition - INFO - Shankarabharanam: 0.671
+2025-04-06 23:52:22,354 - RagaRecognition - INFO - Kalyani: 0.671
+2025-04-06 23:52:22,733 - NeuralAnalysis - ERROR - Error extracting audio features: Argument #4: Padding size should be less than the corresponding input dimension, but got: padding (1024, 1024) at dimension 2 of input [1, 1, 50]
+2025-04-06 23:52:22,981 - NeuralAnalysis - WARNING - Failed to extract one or both embeddings
+2025-04-06 23:52:22,983 - RagaRecognition - INFO - Raga Recognition Results:
+2025-04-06 23:52:22,983 - RagaRecognition - INFO - Mayamalavagowla: 0.445
+2025-04-06 23:52:22,983 - RagaRecognition - INFO - Thodi: 0.448
+2025-04-06 23:52:22,983 - RagaRecognition - INFO - Shankarabharanam: 0.449
+2025-04-06 23:52:23,357 - NeuralAnalysis - ERROR - Error extracting audio features: Argument #4: Padding size should be less than the corresponding input dimension, but got: padding (1024, 1024) at dimension 2 of input [1, 1, 64]
+2025-04-06 23:52:23,618 - NeuralAnalysis - WARNING - Failed to extract one or both embeddings
+2025-04-06 23:52:23,621 - RagaRecognition - INFO - Raga Recognition Results:
+2025-04-06 23:52:23,621 - RagaRecognition - INFO - Kharaharapriya: 1.043
+2025-04-06 23:52:23,622 - RagaRecognition - INFO - Thodi: 1.043
+2025-04-06 23:52:23,622 - RagaRecognition - INFO - Shankarabharanam: 1.043
+2025-04-06 23:52:24,015 - NeuralAnalysis - ERROR - Error extracting audio features: Argument #4: Padding size should be less than the corresponding input dimension, but got: padding (1024, 1024) at dimension 2 of input [1, 1, 52]
+2025-04-06 23:52:24,246 - NeuralAnalysis - WARNING - Failed to extract one or both embeddings
+2025-04-06 23:52:24,248 - RagaRecognition - INFO - Raga Recognition Results:
+2025-04-06 23:52:24,248 - RagaRecognition - INFO - Mayamalavagowla: 0.369
+2025-04-06 23:52:24,248 - RagaRecognition - INFO - Thodi: 0.373
+2025-04-06 23:52:24,248 - RagaRecognition - INFO - Kharaharapriya: 0.373
+2025-04-06 23:52:24,638 - NeuralAnalysis - ERROR - Error extracting audio features: Argument #4: Padding size should be less than the corresponding input dimension, but got: padding (1024, 1024) at dimension 2 of input [1, 1, 77]
+2025-04-06 23:52:51,913 - NeuralAnalysis - INFO - Using device: cpu
+2025-04-06 23:52:53,500 - NeuralAnalysis - INFO - Neural models initialized successfully
+2025-04-06 23:52:53,500 - Preprocessing - INFO - Starting audio preprocessing...
+2025-04-06 23:52:53,501 - Preprocessing - INFO - Loading audio file...
+2025-04-06 23:52:53,945 - Preprocessing - INFO - Loaded sample_audio/classical_music.wav, Duration: 196.34s, Sample rate: 48000Hz
+2025-04-06 23:52:53,949 - Preprocessing - INFO - Removing silence...
+2025-04-06 23:52:54,129 - Preprocessing - INFO - Audio trimmed from 9424512 to 9201664 samples
+2025-04-06 23:52:54,228 - Preprocessing - INFO - Audio normalized
+2025-04-06 23:52:54,228 - Preprocessing - INFO - Extracting pitch and tempo...
+2025-04-06 23:52:55,721 - Preprocessing - INFO - Pitch detection complete. Shape: (1025, 17973)
+2025-04-06 23:53:01,049 - NeuralAnalysis - INFO - Using device: cpu
+2025-04-06 23:53:01,887 - Preprocessing - INFO - Beat tracking complete. Found 277 beats
+2025-04-06 23:53:01,888 - Preprocessing - INFO - Processing pitch data...
+2025-04-06 23:53:01,944 - Preprocessing - INFO - Processed 17973 pitch frames
+2025-04-06 23:53:01,944 - Preprocessing - INFO - Detecting stable segments...
+2025-04-06 23:53:02,888 - NeuralAnalysis - INFO - Neural models initialized successfully
+2025-04-06 23:53:03,679 - Preprocessing - INFO - Found 25 stable segments
+2025-04-06 23:53:03,681 - Preprocessing - INFO - Extracting tonal features...
+2025-04-06 23:53:26,078 - Preprocessing - INFO - Tonal feature extraction complete
+2025-04-06 23:53:26,078 - Preprocessing - INFO - Estimated Tempo: 102.27 BPM
+2025-04-06 23:53:26,078 - Preprocessing - INFO - Generating visualizations...
+2025-04-06 23:53:43,030 - Preprocessing - INFO - Analysis plots saved at: outputs\waveform.png
+2025-04-06 23:53:43,030 - Preprocessing - INFO - Preparing final analysis results...
+2025-04-06 23:53:43,062 - RagaRecognition - INFO - Raga Recognition Results:
+2025-04-06 23:53:43,062 - RagaRecognition - INFO - Kalyani: 0.105
+2025-04-06 23:53:43,062 - RagaRecognition - INFO - Shankarabharanam: 0.110
+2025-04-06 23:53:43,062 - RagaRecognition - INFO - Kharaharapriya: 0.114
+2025-04-06 23:53:43,070 - NeuralAnalysis - ERROR - Error extracting audio features: Argument #4: Padding size should be less than the corresponding input dimension, but got: padding (1024, 1024) at dimension 2 of input [1, 1, 187]
+2025-04-06 23:53:43,071 - NeuralAnalysis - ERROR - Error extracting OpenL3 embeddings: list index out of range
+2025-04-06 23:53:43,071 - NeuralAnalysis - WARNING - Failed to extract one or both embeddings
+2025-04-06 23:53:43,074 - RagaRecognition - INFO - Raga Recognition Results:
+2025-04-06 23:53:43,074 - RagaRecognition - INFO - Mayamalavagowla: 0.670
+2025-04-06 23:53:43,077 - RagaRecognition - INFO - Shankarabharanam: 0.671
+2025-04-06 23:53:43,077 - RagaRecognition - INFO - Kalyani: 0.671
+2025-04-06 23:53:43,078 - NeuralAnalysis - ERROR - Error extracting audio features: Argument #4: Padding size should be less than the corresponding input dimension, but got: padding (1024, 1024) at dimension 2 of input [1, 1, 202]
+2025-04-06 23:53:43,079 - NeuralAnalysis - ERROR - Error extracting OpenL3 embeddings: list index out of range
+2025-04-06 23:53:43,079 - NeuralAnalysis - WARNING - Failed to extract one or both embeddings
+2025-04-06 23:53:43,082 - RagaRecognition - INFO - Raga Recognition Results:
+2025-04-06 23:53:43,082 - RagaRecognition - INFO - Mayamalavagowla: 0.445
+2025-04-06 23:53:43,082 - RagaRecognition - INFO - Thodi: 0.448
+2025-04-06 23:53:43,085 - RagaRecognition - INFO - Shankarabharanam: 0.449
+2025-04-06 23:53:43,085 - NeuralAnalysis - ERROR - Error extracting audio features: Argument #4: Padding size should be less than the corresponding input dimension, but got: padding (1024, 1024) at dimension 2 of input [1, 1, 150]
+2025-04-06 23:53:43,086 - NeuralAnalysis - ERROR - Error extracting OpenL3 embeddings: list index out of range
+2025-04-06 23:53:43,086 - NeuralAnalysis - WARNING - Failed to extract one or both embeddings
+2025-04-06 23:53:43,091 - RagaRecognition - INFO - Raga Recognition Results:
+2025-04-06 23:53:43,091 - RagaRecognition - INFO - Kharaharapriya: 1.043
+2025-04-06 23:53:43,091 - RagaRecognition - INFO - Thodi: 1.043
+2025-04-06 23:53:43,091 - RagaRecognition - INFO - Shankarabharanam: 1.043
+2025-04-06 23:53:43,094 - NeuralAnalysis - ERROR - Error extracting audio features: Argument #4: Padding size should be less than the corresponding input dimension, but got: padding (1024, 1024) at dimension 2 of input [1, 1, 190]
+2025-04-06 23:53:43,094 - NeuralAnalysis - ERROR - Error extracting OpenL3 embeddings: list index out of range
+2025-04-06 23:53:43,094 - NeuralAnalysis - WARNING - Failed to extract one or both embeddings
+2025-04-06 23:53:43,099 - RagaRecognition - INFO - Raga Recognition Results:
+2025-04-06 23:53:43,099 - RagaRecognition - INFO - Mayamalavagowla: 0.369
+2025-04-06 23:53:43,099 - RagaRecognition - INFO - Thodi: 0.373
+2025-04-06 23:53:43,101 - RagaRecognition - INFO - Kharaharapriya: 0.373
+2025-04-06 23:53:43,101 - NeuralAnalysis - ERROR - Error extracting audio features: Argument #4: Padding size should be less than the corresponding input dimension, but got: padding (1024, 1024) at dimension 2 of input [1, 1, 154]
+2025-04-06 23:53:43,102 - NeuralAnalysis - ERROR - Error extracting OpenL3 embeddings: list index out of range
+2025-04-06 23:53:43,103 - NeuralAnalysis - WARNING - Failed to extract one or both embeddings
+2025-04-06 23:53:43,106 - RagaRecognition - INFO - Raga Recognition Results:
+2025-04-06 23:53:43,107 - RagaRecognition - INFO - Shankarabharanam: 1.028
+2025-04-06 23:53:43,107 - RagaRecognition - INFO - Kalyani: 1.028
+2025-04-06 23:53:43,107 - RagaRecognition - INFO - Kharaharapriya: 1.028
+2025-04-06 23:53:43,109 - NeuralAnalysis - ERROR - Error extracting audio features: Argument #4: Padding size should be less than the corresponding input dimension, but got: padding (1024, 1024) at dimension 2 of input [1, 1, 229]
+2025-04-06 23:53:43,110 - NeuralAnalysis - ERROR - Error extracting OpenL3 embeddings: list index out of range
+2025-04-06 23:53:43,110 - NeuralAnalysis - WARNING - Failed to extract one or both embeddings
+2025-04-06 23:53:43,112 - RagaRecognition - INFO - Raga Recognition Results:
+2025-04-06 23:53:43,112 - RagaRecognition - INFO - Thodi: 0.220
+2025-04-06 23:53:43,112 - RagaRecognition - INFO - Kharaharapriya: 0.221
+2025-04-06 23:53:43,116 - RagaRecognition - INFO - Mayamalavagowla: 0.225
+2025-04-06 23:53:43,117 - NeuralAnalysis - ERROR - Error extracting audio features: Argument #4: Padding size should be less than the corresponding input dimension, but got: padding (1024, 1024) at dimension 2 of input [1, 1, 284]
+2025-04-06 23:53:43,117 - NeuralAnalysis - ERROR - Error extracting OpenL3 embeddings: list index out of range
+2025-04-06 23:53:43,118 - NeuralAnalysis - WARNING - Failed to extract one or both embeddings
+2025-04-06 23:53:43,121 - RagaRecognition - INFO - Raga Recognition Results:
+2025-04-06 23:53:43,121 - RagaRecognition - INFO - Kharaharapriya: 0.970
+2025-04-06 23:53:43,121 - RagaRecognition - INFO - Thodi: 0.971
+2025-04-06 23:53:43,121 - RagaRecognition - INFO - Shankarabharanam: 0.972
+2025-04-06 23:53:43,121 - NeuralAnalysis - ERROR - Error extracting audio features: Argument #4: Padding size should be less than the corresponding input dimension, but got: padding (1024, 1024) at dimension 2 of input [1, 1, 215]
+2025-04-06 23:53:43,125 - NeuralAnalysis - ERROR - Error extracting OpenL3 embeddings: list index out of range
+2025-04-06 23:53:43,125 - NeuralAnalysis - WARNING - Failed to extract one or both embeddings
+2025-04-06 23:53:43,129 - RagaRecognition - INFO - Raga Recognition Results:
+2025-04-06 23:53:43,129 - RagaRecognition - INFO - Shankarabharanam: 0.225
+2025-04-06 23:53:43,129 - RagaRecognition - INFO - Kalyani: 0.225
+2025-04-06 23:53:43,129 - RagaRecognition - INFO - Mayamalavagowla: 0.239
+2025-04-06 23:53:43,133 - NeuralAnalysis - ERROR - Error extracting audio features: Argument #4: Padding size should be less than the corresponding input dimension, but got: padding (1024, 1024) at dimension 2 of input [1, 1, 283]
+2025-04-06 23:53:43,133 - NeuralAnalysis - ERROR - Error extracting OpenL3 embeddings: list index out of range
+2025-04-06 23:53:43,133 - NeuralAnalysis - WARNING - Failed to extract one or both embeddings
+2025-04-06 23:53:43,136 - RagaRecognition - INFO - Raga Recognition Results:
+2025-04-06 23:53:43,138 - RagaRecognition - INFO - Mayamalavagowla: 0.966
+2025-04-06 23:53:43,138 - RagaRecognition - INFO - Shankarabharanam: 0.969
+2025-04-06 23:53:43,140 - RagaRecognition - INFO - Kalyani: 0.969
+2025-04-06 23:53:43,140 - NeuralAnalysis - ERROR - Error extracting audio features: Argument #4: Padding size should be less than the corresponding input dimension, but got: padding (1024, 1024) at dimension 2 of input [1, 1, 142]
+2025-04-06 23:53:43,140 - NeuralAnalysis - ERROR - Error extracting OpenL3 embeddings: list index out of range
+2025-04-06 23:53:43,142 - NeuralAnalysis - WARNING - Failed to extract one or both embeddings
+2025-04-06 23:53:43,146 - RagaRecognition - INFO - Raga Recognition Results:
+2025-04-06 23:53:43,147 - RagaRecognition - INFO - Thodi: 0.191
+2025-04-06 23:53:43,147 - RagaRecognition - INFO - Kharaharapriya: 0.199
+2025-04-06 23:53:43,147 - RagaRecognition - INFO - Shankarabharanam: 0.199
+2025-04-06 23:53:43,147 - NeuralAnalysis - ERROR - Error extracting audio features: Argument #4: Padding size should be less than the corresponding input dimension, but got: padding (1024, 1024) at dimension 2 of input [1, 1, 259]
+2025-04-06 23:53:43,147 - NeuralAnalysis - ERROR - Error extracting OpenL3 embeddings: list index out of range
+2025-04-06 23:53:43,147 - NeuralAnalysis - WARNING - Failed to extract one or both embeddings
+2025-04-06 23:53:43,154 - RagaRecognition - INFO - Raga Recognition Results:
+2025-04-06 23:53:43,154 - RagaRecognition - INFO - Thodi: -0.250
+2025-04-06 23:53:43,154 - RagaRecognition - INFO - Kharaharapriya: 0.312
+2025-04-06 23:53:43,154 - RagaRecognition - INFO - Shankarabharanam: 0.319
+2025-04-06 23:53:43,156 - NeuralAnalysis - ERROR - Error extracting audio features: Argument #4: Padding size should be less than the corresponding input dimension, but got: padding (1024, 1024) at dimension 2 of input [1, 1, 283]
+2025-04-06 23:53:43,156 - NeuralAnalysis - ERROR - Error extracting OpenL3 embeddings: list index out of range
+2025-04-06 23:53:43,156 - NeuralAnalysis - WARNING - Failed to extract one or both embeddings
+2025-04-06 23:53:43,161 - RagaRecognition - INFO - Raga Recognition Results:
+2025-04-06 23:53:43,161 - RagaRecognition - INFO - Shankarabharanam: 0.722
+2025-04-06 23:53:43,161 - RagaRecognition - INFO - Kalyani: 0.722
+2025-04-06 23:53:43,161 - RagaRecognition - INFO - Kharaharapriya: 0.722
+2025-04-06 23:53:43,164 - NeuralAnalysis - ERROR - Error extracting audio features: Argument #4: Padding size should be less than the corresponding input dimension, but got: padding (1024, 1024) at dimension 2 of input [1, 1, 164]
+2025-04-06 23:53:43,165 - NeuralAnalysis - ERROR - Error extracting OpenL3 embeddings: list index out of range
+2025-04-06 23:53:43,165 - NeuralAnalysis - WARNING - Failed to extract one or both embeddings
+2025-04-06 23:53:43,167 - RagaRecognition - INFO - Raga Recognition Results:
+2025-04-06 23:53:43,167 - RagaRecognition - INFO - Thodi: -0.339
+2025-04-06 23:53:43,167 - RagaRecognition - INFO - Kharaharapriya: 0.208
+2025-04-06 23:53:43,167 - RagaRecognition - INFO - Shankarabharanam: 0.208
+2025-04-06 23:53:43,172 - NeuralAnalysis - ERROR - Error extracting audio features: Argument #4: Padding size should be less than the corresponding input dimension, but got: padding (1024, 1024) at dimension 2 of input [1, 1, 290]
+2025-04-06 23:53:43,173 - NeuralAnalysis - ERROR - Error extracting OpenL3 embeddings: list index out of range
+2025-04-06 23:53:43,174 - NeuralAnalysis - WARNING - Failed to extract one or both embeddings
+2025-04-06 23:53:43,175 - RagaRecognition - INFO - Raga Recognition Results:
+2025-04-06 23:53:43,175 - RagaRecognition - INFO - Thodi: 0.277
+2025-04-06 23:53:43,175 - RagaRecognition - INFO - Shankarabharanam: 0.279
+2025-04-06 23:53:43,175 - RagaRecognition - INFO - Kalyani: 0.279
+2025-04-06 23:53:43,181 - NeuralAnalysis - ERROR - Error extracting audio features: Argument #4: Padding size should be less than the corresponding input dimension, but got: padding (1024, 1024) at dimension 2 of input [1, 1, 278]
+2025-04-06 23:53:43,181 - NeuralAnalysis - ERROR - Error extracting OpenL3 embeddings: list index out of range
+2025-04-06 23:53:43,181 - NeuralAnalysis - WARNING - Failed to extract one or both embeddings
+2025-04-06 23:53:43,187 - RagaRecognition - INFO - Raga Recognition Results:
+2025-04-06 23:53:43,188 - RagaRecognition - INFO - Thodi: 0.939
+2025-04-06 23:53:43,188 - RagaRecognition - INFO - Shankarabharanam: 0.939
+2025-04-06 23:53:43,188 - RagaRecognition - INFO - Kalyani: 0.939
+2025-04-06 23:53:43,189 - NeuralAnalysis - ERROR - Error extracting audio features: Argument #4: Padding size should be less than the corresponding input dimension, but got: padding (1024, 1024) at dimension 2 of input [1, 1, 305]
+2025-04-06 23:53:43,192 - NeuralAnalysis - ERROR - Error extracting OpenL3 embeddings: list index out of range
+2025-04-06 23:53:43,192 - NeuralAnalysis - WARNING - Failed to extract one or both embeddings
+2025-04-06 23:53:43,196 - RagaRecognition - INFO - Raga Recognition Results:
+2025-04-06 23:53:43,197 - RagaRecognition - INFO - Thodi: 0.192
+2025-04-06 23:53:43,197 - RagaRecognition - INFO - Kharaharapriya: 0.199
+2025-04-06 23:53:43,197 - RagaRecognition - INFO - Mayamalavagowla: 0.206
+2025-04-06 23:53:43,197 - NeuralAnalysis - ERROR - Error extracting audio features: Argument #4: Padding size should be less than the corresponding input dimension, but got: padding (1024, 1024) at dimension 2 of input [1, 1, 177]
+2025-04-06 23:53:43,199 - NeuralAnalysis - ERROR - Error extracting OpenL3 embeddings: list index out of range
+2025-04-06 23:53:43,200 - NeuralAnalysis - WARNING - Failed to extract one or both embeddings
+2025-04-06 23:53:43,204 - RagaRecognition - INFO - Raga Recognition Results:
+2025-04-06 23:53:43,204 - RagaRecognition - INFO - Mayamalavagowla: 0.292
+2025-04-06 23:53:43,204 - RagaRecognition - INFO - Shankarabharanam: 0.303
+2025-04-06 23:53:43,204 - RagaRecognition - INFO - Kharaharapriya: 0.303
+2025-04-06 23:53:43,207 - NeuralAnalysis - ERROR - Error extracting audio features: Argument #4: Padding size should be less than the corresponding input dimension, but got: padding (1024, 1024) at dimension 2 of input [1, 1, 151]
+2025-04-06 23:53:43,208 - NeuralAnalysis - ERROR - Error extracting OpenL3 embeddings: list index out of range
+2025-04-06 23:53:43,209 - NeuralAnalysis - WARNING - Failed to extract one or both embeddings
+2025-04-06 23:53:43,211 - RagaRecognition - INFO - Raga Recognition Results:
+2025-04-06 23:53:43,211 - RagaRecognition - INFO - Thodi: 0.307
+2025-04-06 23:53:43,211 - RagaRecognition - INFO - Shankarabharanam: 0.333
+2025-04-06 23:53:43,211 - RagaRecognition - INFO - Kharaharapriya: 0.333
+2025-04-06 23:53:43,215 - NeuralAnalysis - ERROR - Error extracting audio features: Argument #4: Padding size should be less than the corresponding input dimension, but got: padding (1024, 1024) at dimension 2 of input [1, 1, 169]
+2025-04-06 23:53:43,215 - NeuralAnalysis - ERROR - Error extracting OpenL3 embeddings: list index out of range
+2025-04-06 23:53:43,216 - NeuralAnalysis - WARNING - Failed to extract one or both embeddings
+2025-04-06 23:53:43,217 - RagaRecognition - INFO - Raga Recognition Results:
+2025-04-06 23:53:43,217 - RagaRecognition - INFO - Shankarabharanam: 1.013
+2025-04-06 23:53:43,217 - RagaRecognition - INFO - Kharaharapriya: 1.013
+2025-04-06 23:53:43,217 - RagaRecognition - INFO - Thodi: 1.013
+2025-04-06 23:53:43,221 - NeuralAnalysis - ERROR - Error extracting audio features: Argument #4: Padding size should be less than the corresponding input dimension, but got: padding (1024, 1024) at dimension 2 of input [1, 1, 148]
+2025-04-06 23:53:43,221 - NeuralAnalysis - ERROR - Error extracting OpenL3 embeddings: list index out of range
+2025-04-06 23:53:43,222 - NeuralAnalysis - WARNING - Failed to extract one or both embeddings
+2025-04-06 23:53:43,226 - RagaRecognition - INFO - Raga Recognition Results:
+2025-04-06 23:53:43,226 - RagaRecognition - INFO - Mayamalavagowla: 0.979
+2025-04-06 23:53:43,226 - RagaRecognition - INFO - Kalyani: 0.982
+2025-04-06 23:53:43,226 - RagaRecognition - INFO - Shankarabharanam: 0.982
+2025-04-06 23:53:43,228 - NeuralAnalysis - ERROR - Error extracting audio features: Argument #4: Padding size should be less than the corresponding input dimension, but got: padding (1024, 1024) at dimension 2 of input [1, 1, 231]
+2025-04-06 23:53:43,229 - NeuralAnalysis - ERROR - Error extracting OpenL3 embeddings: list index out of range
+2025-04-06 23:53:43,229 - NeuralAnalysis - WARNING - Failed to extract one or both embeddings
+2025-04-06 23:53:43,237 - RagaRecognition - INFO - Raga Recognition Results:
+2025-04-06 23:53:43,238 - RagaRecognition - INFO - Mayamalavagowla: 0.269
+2025-04-06 23:53:43,238 - RagaRecognition - INFO - Kharaharapriya: 0.270
+2025-04-06 23:53:43,238 - RagaRecognition - INFO - Thodi: 0.275
+2025-04-06 23:53:43,240 - NeuralAnalysis - ERROR - Error extracting audio features: Argument #4: Padding size should be less than the corresponding input dimension, but got: padding (1024, 1024) at dimension 2 of input [1, 1, 824]
+2025-04-06 23:53:43,241 - NeuralAnalysis - ERROR - Error extracting OpenL3 embeddings: list index out of range
+2025-04-06 23:53:43,241 - NeuralAnalysis - WARNING - Failed to extract one or both embeddings
+2025-04-06 23:53:43,246 - RagaRecognition - INFO - Raga Recognition Results:
+2025-04-06 23:53:43,246 - RagaRecognition - INFO - Thodi: 0.107
+2025-04-06 23:53:43,246 - RagaRecognition - INFO - Kharaharapriya: 0.110
+2025-04-06 23:53:43,246 - RagaRecognition - INFO - Mayamalavagowla: 0.111
+2025-04-06 23:53:43,248 - NeuralAnalysis - ERROR - Error extracting audio features: Argument #4: Padding size should be less than the corresponding input dimension, but got: padding (1024, 1024) at dimension 2 of input [1, 1, 358]
+2025-04-06 23:53:43,248 - NeuralAnalysis - ERROR - Error extracting OpenL3 embeddings: list index out of range
+2025-04-06 23:53:43,250 - NeuralAnalysis - WARNING - Failed to extract one or both embeddings
+2025-04-06 23:53:43,252 - RagaRecognition - INFO - Raga Recognition Results:
+2025-04-06 23:53:43,254 - RagaRecognition - INFO - Shankarabharanam: 0.973
+2025-04-06 23:53:43,254 - RagaRecognition - INFO - Kalyani: 0.973
+2025-04-06 23:53:43,254 - RagaRecognition - INFO - Kharaharapriya: 0.973
+2025-04-06 23:53:43,255 - NeuralAnalysis - ERROR - Error extracting audio features: Argument #4: Padding size should be less than the corresponding input dimension, but got: padding (1024, 1024) at dimension 2 of input [1, 1, 299]
+2025-04-06 23:53:43,256 - NeuralAnalysis - ERROR - Error extracting OpenL3 embeddings: list index out of range
+2025-04-06 23:53:43,257 - NeuralAnalysis - WARNING - Failed to extract one or both embeddings
+2025-04-06 23:53:43,259 - RagaRecognition - INFO - Raga Recognition Results:
+2025-04-06 23:53:43,259 - RagaRecognition - INFO - Thodi: -0.286
+2025-04-06 23:53:43,259 - RagaRecognition - INFO - Shankarabharanam: -0.278
+2025-04-06 23:53:43,259 - RagaRecognition - INFO - Kalyani: -0.278
+2025-04-06 23:53:43,276 - NeuralAnalysis - ERROR - Error extracting audio features: Argument #4: Padding size should be less than the corresponding input dimension, but got: padding (1024, 1024) at dimension 2 of input [1, 1, 168]
+2025-04-06 23:53:43,277 - NeuralAnalysis - ERROR - Error extracting OpenL3 embeddings: list index out of range
+2025-04-06 23:53:43,277 - NeuralAnalysis - WARNING - Failed to extract one or both embeddings
